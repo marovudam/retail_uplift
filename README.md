@@ -16,7 +16,7 @@ Uplift modelling allows us to pick individuals who will react on treatment. It d
 
 The main problem of this value is that it is purely theoretical. *You cannot treat and not treat the individual at the same time.*
 
-Here are some great articles on a problem and basic methods of solving it: [Habr articles by MTS company (rus)](https://habr.com/ru/companies/ru_mts/articles/485980/), [scikit-uplift documentation (en)](https://www.uplift-modeling.com/en/latest/user_guide/introduction/comparison.html). I used [Class Transformation model]([https://www.uplift-modeling.com/en/latest/user_guide/models/two_models.html#two-dependent-models](https://www.uplift-modeling.com/en/latest/user_guide/models/revert_label.html)) (which ended up giving the best results) and [Two Dependent model](https://www.uplift-modeling.com/en/latest/user_guide/models/two_models.html#two-dependent-models) approach.
+Here are some great articles on a problem and basic methods of solving it: [Habr articles by MTS company (rus)](https://habr.com/ru/companies/ru_mts/articles/485980/), [scikit-uplift documentation (en)](https://www.uplift-modeling.com/en/latest/user_guide/introduction/comparison.html). I used [Class Transformation model](https://www.uplift-modeling.com/en/latest/user_guide/models/revert_label.html) (which ended up giving the best results) and [Two Dependent model](https://www.uplift-modeling.com/en/latest/user_guide/models/two_models.html#two-dependent-models) approach.
 
 ## Datasets description
 The data provided (not included in the repository, but can be found at competition page):
